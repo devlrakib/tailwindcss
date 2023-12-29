@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* ? Customize Any Layer In Tailwind CSS */
+@layer base{
+    h1{
+        @apply text-9xl;
+    }
+}
+@layer components{
+    h4{
+        @apply font-bold
+    }
+}
+/* ! Customize Tailwind CSS Apply System */
+.btn{
+   @apply bg-green-700 text-3xl mx-10 mt-10 py-2 p-10 rounded-full text-white hover:bg-gray-900
+}
